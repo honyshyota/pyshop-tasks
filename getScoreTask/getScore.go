@@ -60,6 +60,7 @@ func fillScores() *[]ScoreStamp {
 	return &scores
 }
 
+// My function
 func getScore(scores *[]ScoreStamp, offset int) Score {
 	for _, scoreStamp := range *scores {
 		if scoreStamp.Offset == offset {
